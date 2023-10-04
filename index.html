@@ -5,51 +5,54 @@
   <title>Portfolio</title>
 </head>
 <body class="bg-gray-100">
-  <section id="Home"class="h-screen">
-    <nav class="text-3xl font-poppins">
-     <ul class="flex justify-end px-10 py-7 space-x-10 font-bold">
-       <li>HOME</li>
-       <li>ABOUT</li>
-       <li>PROJECTS</li>
-     </ul>
+  <!-- HOME -->
+  <section id="home"class="h-screen">
+    <nav class=" text-xs font-poppins">
+     <div class="flex justify-end pr-2 pt-2 space-x-6 font-bold">
+       <a class="hover:bg-green-500 active:bg-blue-400" href="#home">HOME</a>
+       <a class="hover:bg-green-500 active:bg-blue-400" href="#about">ABOUT</a>
+       <a class="hover:bg-green-500 active:bg-blue-400" href="#projects">PROJECTS</a>
+     </div>
    </nav>
-    <!--  image -->
-    <div class="flex justify-center">
+    
+    <div class="flex   justify-center">
       <img
-        class="mt-60 w-[700px] border-8 rounded-full"
+        class="mt-10 w-[200px] border-8 rounded-full"
         src="./img/Me.png"
         alt=""
       />
     </div>
-    <!--  text and button  -->
-    <div class="my-28 mx-14">
-      <!--  text --- -->
-      <div class="flex flex-col space-y-7">
-        <div class="text-8xl font-bold">
+   
+    <div class="my-5 ml-8">
+    
+      <div class="flex flex-col space-y-3">
+        <div class="text-3xl font-bold">
           <h1>Hi,<br />I'm Abhinav Manoj</h1>
         </div>
-        <div class="text-6xl font-mono">
+        <div class="text-xl font-mono">
           <p>web developer</p>
         </div>
       </div>
-      <!-- Button  -->
-      <div class="mt-12">
-        <button class="bg-black px-20 h-28 rounded-2xl hover:bg-green-600">
-          <h1 class="text-white text-4xl font-bold">CONTACT ME</h1>
-        </button>
+      
+      <div class="mt-4">
+        <a href="#contact"><button class=" bg-black px-2 h-7 rounded-md hover:bg-green-600 active:bg-blue-400">
+          <p class="text-white text-xs font-semibold">CONTACT ME</p>
+        </button></a>
       </div>
     </div>
+    
 </section>
-  <section id="About" class="h-screen">
-    <div class="flex flex-col items-center  bg-white rounded-2xl ">
-       <div class="flex flex-col items-center w-[100%]"><!-- For title and content  -->
-     <!--  Title  -->
-     <div class="text-5xl font-bold py-6">
+<!-- ABOUT -->
+  <section id="about" class="h-screen">
+    <div class="flex flex-col items-center  bg-white rounded-md space-y-6 mt-8 ">
+       <div class="flex flex-col items-center">
+     
+     <div class="text-xl font-bold py-3">
       <h1>ABOUT ME</h1>
     </div>
      
-      <!--  content  -->
-      <div class="space-x-6 pb-10 text-4xl font-semibold leading-snug ">
+      
+      <div class=" text-xs font-semibold leading-relaxed ">
         <p>
           I'm a front-end developer based in Kerala, India. I'm<br />passionate
           about designing websites, beautiful<br />interfaces and
@@ -58,44 +61,49 @@
       </div>
     </div>
       
-      <!--  Image  -->
+     
       <div>
         <img
-          class="w-[900px] h-[900px] pb-8"
-          src="/img/iam dev rover.png"
+          class="w-[290px]  pb-8"
+          src="/img/dev_rover.png"
           alt=""
         />
       </div>
      
     </div>
   </section>
-  <section id="Projects" class="h-screen">
-    <div class="flex flex-col items-center bg-white rounded-2xl">
-      <!-- Title  -->
-     <div class="text-5xl font-bold py-6">
+  <!-- PROJECTS -->
+  <section id="projects" class="h-screen">
+    <div class="flex flex-col items-center bg-white rounded-md mt-12">
+      
+     <div class="text-xl font-bold py-3">
        <h1>PROJECTS</h1>
      </div>
-     <!-- Image --> 
+   
      <div>
-       <img class="w-[900px] h-[900px]" src="img/mars_rover.png" alt="" />
+       <img class="w-[290px] pb-2" src="img/mars_rover.png" alt="" />
      </div>
    </div>
 </section>
-  <section id="Contact" class="h-screen">
-    <div class="flex flex-col items-center bg-white rounded-2xl">
-      <!--  Title --> 
-      <div class="text-5xl">
+<!-- CONTACT -->
+  <section id="contact" class="h-screen">
+    <div class="flex flex-col items-center bg-white rounded-md">
+      
+      <div class="text-xl font-bold py-3">
         <h1>CONTACT ME</h1>
       </div>
-      <!--  Image  -->
+      
       <div>
-        <img class="w-[900px]" src="img/astronaut.png" alt="" />
+        <img class="w-[290px]" src="img/astronaut.png" alt="" />
       </div>
-      <!--  Social_Media_Icons  -->
-      <div>
-        <img src="img/Vector.svg" alt="" />
-        <img src="img/GitHub.svg" alt="" />
-        <img src="img/gmail.svg" alt="" />
+      
+      <div class=" w-[30px] h[30px] flex space-x-16 justify-center pb-2 pt-2">
+       
+       <img src="img/Vector.svg" alt="">
+       <img src="img/GitHub.svg" alt="">
+       <img src="img/gmail.svg" alt="">
+        
+        
       </div>
     </div>
   </section>
