@@ -580,30 +580,6 @@ video {
   height: 100vh;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[9\] {
-  height: 9;
-}
-
-.h-\[90\] {
-  height: 90;
-}
-
-.h-\[900\] {
-  height: 900;
-}
-
-.h-\[900p\] {
-  height: 900p;
-}
-
-.h-\[900pxx\] {
-  height: 900pxx;
-}
-
 .w-\[100\%\] {
   width: 100%;
 }
@@ -656,10 +632,6 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .border-8 {
