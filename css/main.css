@@ -548,16 +548,12 @@ video {
   margin-top: 3rem;
 }
 
-.mt-72 {
-  margin-top: 18rem;
+.mt-60 {
+  margin-top: 15rem;
 }
 
 .mt-96 {
   margin-top: 24rem;
-}
-
-.mt-60 {
-  margin-top: 15rem;
 }
 
 .flex {
@@ -576,12 +572,40 @@ video {
   height: 850px;
 }
 
+.h-\[900px\] {
+  height: 900px;
+}
+
 .h-screen {
   height: 100vh;
 }
 
-.h-\[900px\] {
-  height: 900px;
+.h-\[\] {
+  height: ;
+}
+
+.h-\[9\] {
+  height: 9;
+}
+
+.h-\[90\] {
+  height: 90;
+}
+
+.h-\[900\] {
+  height: 900;
+}
+
+.h-\[900p\] {
+  height: 900p;
+}
+
+.h-\[900pxx\] {
+  height: 900pxx;
+}
+
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .w-\[700px\] {
@@ -590,18 +614,6 @@ video {
 
 .w-\[900px\] {
   width: 900px;
-}
-
-.w-\[100\%\] {
-  width: 100%;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .flex-col {
@@ -626,16 +638,16 @@ video {
   margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-7 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
-}
-
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-7 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
 }
 
 .rounded-2xl {
@@ -644,6 +656,10 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .border-8 {
@@ -669,14 +685,6 @@ video {
   padding: 1.75rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
-.p-20 {
-  padding: 5rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -697,21 +705,12 @@ video {
   padding-bottom: 1.75rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pb-8 {
   padding-bottom: 2rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 
 .font-mono {
@@ -743,29 +742,12 @@ video {
   line-height: 1;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
 .font-semibold {
   font-weight: 600;
-}
-
-.leading-3 {
-  line-height: .75rem;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
 }
 
 .leading-snug {
