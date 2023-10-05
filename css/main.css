@@ -558,6 +558,58 @@ video {
   margin-top: 2.25rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-28 {
+  margin-right: 7rem;
+}
+
+.mr-\[\] {
+  margin-right: ;
+}
+
+.mr-\[r\] {
+  margin-right: r;
+}
+
+.mr-\[6\] {
+  margin-right: 6;
+}
+
+.mr-\[6\.\] {
+  margin-right: 6.;
+}
+
+.mr-\[6\.5\] {
+  margin-right: 6.5;
+}
+
+.mr-\[6\.5r\] {
+  margin-right: 6.5r;
+}
+
+.mr-\[6\.5re\] {
+  margin-right: 6.5re;
+}
+
+.mr-\[6\.5rem\] {
+  margin-right: 6.5rem;
+}
+
+.mr-\[re\] {
+  margin-right: re;
+}
+
+.mr-\[rem\] {
+  margin-right: rem;
+}
+
 .flex {
   display: flex;
 }
