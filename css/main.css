@@ -630,6 +630,10 @@ video {
   width: 340px;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .flex-col {
   flex-direction: column;
 }
