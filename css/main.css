@@ -566,6 +566,26 @@ video {
   margin-top: 2.25rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -656,6 +676,14 @@ video {
 
 .gap-20 {
   gap: 5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
 }
 
 .space-x-16 > :not([hidden]) ~ :not([hidden]) {
@@ -813,4 +841,26 @@ html {
 .active\:text-blue-400:active {
   --tw-text-opacity: 1;
   color: rgb(96 165 250 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .md\:mt-24 {
+    margin-top: 6rem;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
 }
