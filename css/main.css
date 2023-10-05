@@ -534,13 +534,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.ml-8 {
-  margin-left: 2rem;
+.mr-44 {
+  margin-right: 11rem;
 }
 
 .mt-10 {
@@ -551,32 +546,20 @@ video {
   margin-top: 3rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
 
-.mr-9 {
-  margin-right: 2.25rem;
+.ml-40 {
+  margin-left: 10rem;
 }
 
-.mr-28 {
-  margin-right: 7rem;
+.ml-4 {
+  margin-left: 1rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
-.mr-40 {
-  margin-right: 10rem;
-}
-
-.mr-44 {
-  margin-right: 11rem;
+.ml-44 {
+  margin-left: 11rem;
 }
 
 .flex {
@@ -603,6 +586,18 @@ video {
   width: 30px;
 }
 
+.w-\[20px\] {
+  width: 20px;
+}
+
+.w-\[px\] {
+  width: px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -623,16 +618,40 @@ video {
   gap: 1rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
+.gap-7 {
+  gap: 1.75rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-1 {
   gap: 0.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-14 {
+  gap: 3.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-16 > :not([hidden]) ~ :not([hidden]) {
@@ -645,12 +664,6 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.space-y-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
