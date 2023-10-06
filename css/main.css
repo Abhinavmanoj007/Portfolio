@@ -586,6 +586,10 @@ video {
   height: 3.5rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-\[290px\] {
   width: 290px;
 }
@@ -716,6 +720,11 @@ video {
   padding-right: 1.75rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -779,12 +788,21 @@ video {
   line-height: 2rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .leading-relaxed {
