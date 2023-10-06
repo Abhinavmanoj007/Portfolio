@@ -850,6 +850,10 @@ video {
   font-weight: 300;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .leading-relaxed {
   line-height: 1.625;
 }
