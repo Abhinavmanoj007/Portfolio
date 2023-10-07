@@ -534,6 +534,15 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ml-44 {
   margin-left: 11rem;
 }
@@ -554,6 +563,10 @@ video {
   margin-top: 2.25rem;
 }
 
+.mt-\[-20px\] {
+  margin-top: -20px;
+}
+
 .flex {
   display: flex;
 }
@@ -564,6 +577,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-\[280px\] {
@@ -717,7 +734,7 @@ video {
 }
 
 .to-projects2 {
-  --tw-gradient-to: #2A1E20 var(--tw-gradient-to-position);
+  --tw-gradient-to: #260C11 var(--tw-gradient-to-position);
 }
 
 .p-4 {
@@ -746,10 +763,6 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 
 .pb-6 {
@@ -840,4 +853,24 @@ video {
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (min-width: 768px) {
+  .md\:w-\[420\] {
+    width: 420;
+  }
+
+  .md\:w-\[420px\] {
+    width: 420px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-\[480px\] {
+    width: 480px;
+  }
+
+  .lg\:w-\[460px\] {
+    width: 460px;
+  }
 }

@@ -8,22 +8,20 @@
     <meta name="author" content="Abhinav manoj" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet" />
     <title>Portfolio</title>
   </head>
   <body class="bg-background">
     <!-- HOME -->
-    <section id="home" class="h-screen">
-      <div class="flex flex-col items-center gap-12">
-        <nav class="text-sm font-poppins flex justify-end pr-1 pt-2 mr-2 gap-6 ml-44 font-medium text-titlePrimary">
-          <a class="hover:text-green-500 active:text-blue-400" href="#home">HOME</a>
-          <a class="hover:text-green-500 active:text-blue-400" href="#about">ABOUT</a>
-          <a class="hover:text-green-500 active:text-blue-400" href="#projects">PROJECTS</a>
-        </nav>
-
-        <div class="flex flex-col items-center justify-center w-[300px] bg-gradient-to-b from-darkGray to-lightGray rounded-full py-2 mt-4">
+    <section id="home" class="h-screen w-full">
+      <nav class="text-sm font-poppins flex justify-end py-2 gap-6 font-medium text-titlePrimary w-[300px] md:w-[420px] lg:w-[460px] mx-auto">
+        <a class="hover:text-green-500 active:text-blue-400" href="#home">HOME</a>
+        <a class="hover:text-green-500 active:text-blue-400" href="#about">ABOUT</a>
+        <a class="hover:text-green-500 active:text-blue-400" href="#projects">PROJECTS</a>
+      </nav>
+      <div class="flex flex-col items-center justify-center gap-12 h-full mt-[-20px]">
+        <div class="flex flex-col items-center justify-center w-[300px] bg-gradient-to-b from-darkGray to-lightGray rounded-full py-2">
           <img class="w-[280px]" loading="lazy" src="https://ik.imagekit.io/8vdv1tq52/tr:w-600/Me.png?updatedAt=1696611426641" alt="" />
         </div>
 
@@ -38,22 +36,22 @@
     </section>
     <!-- ABOUT -->
     <section id="about" class="h-screen flex items-center justify-center w-full">
-      <div class="flex flex-col justify-center items-center bg-gradient-to-b from-aboutme to-aboutme2 rounded-xl gap-1 w-[370px] shadow-lg">
-        <div class="flex flex-col items-center justify-center">
-          <h1 class="text-xl font-bold font-poppins py-3 text-titlePrimary">ABOUT ME</h1>
-          <img class="w-[340px]" loading="lazy" src="https://ik.imagekit.io/8vdv1tq52/tr:w-600/dev_rover.png?updatedAt=1696611488866" alt="" />
+      <div class="flex flex-col justify-center items-center bg-gradient-to-b from-aboutme to-aboutme2 rounded-xl gap-4 p-6 w-[370px] md:w-[420px] lg:w-[460px] shadow-lg">
+        <div class="flex flex-col items-center justify-center gap-4">
+          <h1 class="text-xl font-bold font-poppins text-titlePrimary">ABOUT ME</h1>
+          <img class="w-full" loading="lazy" src="https://ik.imagekit.io/8vdv1tq52/tr:w-600/dev_rover.png?updatedAt=1696611488866" alt="" />
         </div>
 
-        <p class="text-sm font-normal leading-relaxed font-poppins p-4 pb-6 text-titlePrimary">
+        <p class="text-sm font-normal leading-relaxed font-poppins text-titlePrimary">
           I'm a front-end developer based in Kerala, India. I have a deep passion for coding and enjoy turning creative ideas into functional websites. Skilled in creating responsive web designs to
-          ensure a seamless experience across various devices. <br />Always eager and stay updated with the latest trends and technologies in web development.
+          ensure a seamless experience across various devices. Always eager and stay updated with the latest trends and technologies in web development.
         </p>
       </div>
     </section>
 
     <!-- PROJECTS -->
     <section id="projects" class="h-screen flex items-center justify-center w-full bg-projectbg">
-      <div class="flex flex-col items-center bg-gradient-to-b from-projects to-projects2 rounded-md justify-center w-[370px] shadow-lg gap-4 p-6">
+      <div class="flex flex-col items-center bg-gradient-to-b from-projects to-projects2 rounded-md justify-center w-[370px] shadow-lg gap-4 p-6 md:w-[420px] lg:w-[460px]">
         <h1 class="text-xl font-bold font-poppins text-titlePrimary">PROJECTS</h1>
 
         <img class="" src="https://ik.imagekit.io/8vdv1tq52/tr:w-600/mars_rover.png?updatedAt=1696613764631" alt="" loading="lazy" />
@@ -67,13 +65,13 @@
 
     <!-- CONTACT -->
     <section id="contact" class="h-screen flex items-center justify-center w-full bg-contactbg">
-      <div class="flex flex-col items-center bg-gradient-to-b from-contactme to-contactme2 rounded-md w-[370px] shadow-lg gap-4 p-6">
+      <div class="flex flex-col items-center bg-gradient-to-b from-contactme to-contactme2 rounded-md w-[370px] md:w-[420px] lg:w-[460px] shadow-lg gap-4 p-6">
         <h1 class="text-xl font-bold font-poppins text-titlePrimary">CONTACT ME</h1>
 
         <img class="w-full" src="https://ik.imagekit.io/8vdv1tq52/tr:w-600/astronaut.png?updatedAt=1696611488584" alt="" loading="lazy" />
 
         <div class="w-full flex justify-between items-center">
-          <a href="https://x.com/Abhinavmanoj_10">
+          <a href="https://x.com/Abhinavmanoj_10" target="_blank">
             <svg width="36" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M33.9474 4.125H40.0121L26.7626 19.2683L42.3496 39.875H30.1451L20.5861 27.3772L9.6484 39.875H3.58007L17.7517 23.6775L2.79907 4.125H15.3134L23.9539 15.5485L33.9474 4.125ZM31.8189 36.245H35.1794L13.4874 7.56433H9.88124L31.8189 36.245Z"
@@ -82,7 +80,7 @@
             </svg>
           </a>
 
-          <a href="https://github.com/Abhinavmanoj007">
+          <a href="https://github.com/Abhinavmanoj007" target="_blank">
             <svg width="36" height="43" viewBox="0 0 45 43" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_240_23)">
                 <path
@@ -128,7 +126,7 @@
             </svg>
           </a>
 
-          <a href="">
+          <a href="" target="_blank">
             <svg width="36" height="48" viewBox="0 0 43 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_240_33)">
                 <path d="M3.36453 41.9999H10.0427V23.4627L0.5 15.2737V38.7262C0.5 40.5412 1.78543 41.9999 3.36453 41.9999Z" fill="#4285F4" />

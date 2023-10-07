@@ -11,7 +11,7 @@ module.exports = {
       aboutme: '#3B8950',
       aboutme2: '#1E2A24',
       projects: '#9E283D',
-      projects2: '#2A1E20',
+      projects2: '#260C11',
       contactme: '#663AC2',
       contactme2: '#1C1627',
       titlePrimary: '#E7E7E7',
