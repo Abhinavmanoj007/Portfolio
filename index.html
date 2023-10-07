@@ -13,12 +13,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
   <title>Portfolio</title>
 </head>
-<body class="bg-gray-100">
+<body class="bg-background">
   <!-- HOME -->
   <section id="home"class="h-screen">
     <div class="flex flex-col  items-center gap-12 ">
     
-    <nav class=" text-sm font-poppins flex justify-end pr-1 pt-2 mr-2  gap-6 ml-44 font-medium">
+    <nav class=" text-sm font-poppins flex justify-end pr-1 pt-2 mr-2  gap-6 ml-44 font-medium text-titlePrimary">
       <a class="hover:text-green-500 active:text-blue-400" href="#home">HOME</a>
        <a class="hover:text-green-500 active:text-blue-400" href="#about">ABOUT</a>
        <a class="hover:text-green-500 active:text-blue-400" href="#projects">PROJECTS</a>
@@ -26,26 +26,29 @@
       
 
     
-    
-      <img
-        class=" mt-5 w-[280px] border-8 rounded-full" loading="lazy"
+      <div class="flex flex-col items-center justify-center w-[300px] bg-gradient-to-b from-darkGray to-lightGray rounded-full py-2 mt-4"><img
+        class=" w-[280px] " loading="lazy"
         src="https://ik.imagekit.io/8vdv1tq52/tr:w-600/Me.png?updatedAt=1696611426641"
         alt=""
-      />
-     <!--  <div class="flex flex-col gap-5"> -->
+      /></div>
+        
+     
+    
+      
+    
       
       <div class="flex flex-col gap-2 place-items-start">
         
-          <h1 class="text-4xl font-extrabold font-poppins">Hi,<br />I'm Abhinav Manoj</h1>
+          <h1 class="text-4xl font-extrabold font-poppins text-titlePrimary">Hi,<br />I'm <span class="text-title"> Abhinav Manoj</span></h1>
         
         
-          <p class="text-2xl font-mono">web developer</p>
+          <p class="text-2xl font-mono text-titlePrimary">web developer</p>
         
       
         
-<a href="#contact" class=" mt-3 text-white bg-black hover:bg-green-600  font-bold rounded-lg text-xs px-4 py-2.5  font-poppins">CONTACT ME</a>
+<a href="#contact" class=" mt-3 text-white bg-gradient-to-b from-button to-aboutme2  font-bold rounded-lg text-xs px-4 py-2.5  font-poppins">CONTACT ME</a>
 
-     <!--  </div> -->
+     
      </div>
      
     </div>
@@ -53,12 +56,12 @@
 </section>
 <!-- ABOUT -->
   <section id="about" class="h-screen flex  items-center justify-center w-full">
-    <div class="flex flex-col justify-center items-center  bg-white rounded-xl gap-1  w-[370px] shadow-lg">
+    <div class="flex flex-col justify-center items-center bg-gradient-to-b from-aboutme to-aboutme2 rounded-xl gap-1  w-[370px] shadow-lg">
        
      
      
       <div class="flex flex-col items-center justify-center">
-        <h1 class="text-xl font-bold font-poppins py-3">ABOUT ME</h1>
+        <h1 class="text-xl font-bold font-poppins py-3 text-titlePrimary">ABOUT ME</h1>
         <img
           class="w-[340px]" loading="lazy"
           src="https://ik.imagekit.io/8vdv1tq52/tr:w-600/dev_rover.png?updatedAt=1696611488866"
@@ -66,7 +69,7 @@
         />
       </div>
         
-        <p class=" text-sm font-normal leading-relaxed font-poppins p-4 pb-6">
+        <p class=" text-sm font-normal leading-relaxed font-poppins p-4 pb-6 text-titlePrimary">
            I'm a front-end developer based in Kerala, India. I have a deep passion for coding and enjoy turning creative ideas into functional websites. Skilled in creating responsive web designs to ensure a seamless experience across various devices. <br>Always eager and stay updated with the latest trends and technologies in web development.
          </p>
       
@@ -75,10 +78,10 @@
   </section>
   <!-- PROJECTS -->
   <section id="projects" class="h-screen flex  items-center justify-center w-full">
-    <div class="flex flex-col items-center bg-white rounded-md justify-center w-[370px] shadow-lg">
+    <div class="flex flex-col items-center bg-gradient-to-b from-projects to-projects2 rounded-md justify-center w-[370px] shadow-lg">
       
      
-       <h1 class="text-xl font-bold py-3 font-poppins">PROJECTS</h1>
+       <h1 class="text-xl font-bold py-3 font-poppins text-titlePrimary">PROJECTS</h1>
      
    
      
@@ -89,10 +92,10 @@
 <!-- CONTACT -->
   <section id="contact" class="h-screen flex  items-center justify-center w-full">
     
-    <div class="flex flex-col items-center bg-white rounded-md  w-[370px] shadow-lg gap-6">
+    <div class="flex flex-col items-center bg-gradient-to-b from-contactme to-contactme2 rounded-md  w-[370px] shadow-lg gap-6">
       
      
-        <h1 class="text-xl font-bold py-3 font-poppins">CONTACT ME</h1>
+        <h1 class="text-xl font-bold pt-5 font-poppins text-titlePrimary">CONTACT ME</h1>
       
       
      
@@ -101,7 +104,7 @@
       
       <div class=" w-[30px] h-[30px] flex justify-center items-center gap-20 pb-6 ">
        
-       <img src="./img/Vector.svg" alt="">
+       <img src="./img/X.svg" alt="">
        <img src="./img/GitHub.svg" alt="">
        <img src="./img/gmail.svg" alt="">
         
