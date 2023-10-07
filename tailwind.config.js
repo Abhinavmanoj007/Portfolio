@@ -17,6 +17,7 @@ module.exports = {
       titlePrimary: "#E7E7E7",
       lightGray: "#D3D3D3",
       darkGray: "#A9A9A9",
+      footer: "#180815",
     },
     extend: {
       fontFamily: {
