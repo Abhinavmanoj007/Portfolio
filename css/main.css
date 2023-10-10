@@ -559,10 +559,6 @@ video {
   margin-top: 2.25rem;
 }
 
-.mt-\[-20px\] {
-  margin-top: -20px;
-}
-
 .flex {
   display: flex;
 }
@@ -838,6 +834,10 @@ html {
 }
 
 @media (min-width: 1024px) {
+  .lg\:mt-\[-20px\] {
+    margin-top: -20px;
+  }
+
   .lg\:w-\[460px\] {
     width: 460px;
   }
